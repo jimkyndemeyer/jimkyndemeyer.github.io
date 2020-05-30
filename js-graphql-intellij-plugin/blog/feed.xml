@@ -5,14 +5,14 @@
         <link>https://jimkyndemeyer.github.io/js-graphql-intellij-plugin/blog</link>
         <description>The best place to stay up-to-date with the latest JS GraphQL IntelliJ Plugin news and events.</description>
         <lastBuildDate>Sun, 31 Mar 2019 06:00:00 GMT</lastBuildDate>
-        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-        <generator>Feed for Node.js</generator>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>JS GraphQL IntelliJ Plugin Blog</title>
             <url>https://jimkyndemeyer.github.io/js-graphql-intellij-plugin/undefined</url>
             <link>https://jimkyndemeyer.github.io/js-graphql-intellij-plugin/blog</link>
         </image>
-        <copyright>Copyright © 2019 Jim Kynde Meyer and Contributors</copyright>
+        <copyright>Copyright © 2020 Jim Kynde Meyer and Contributors</copyright>
         <item>
             <title><![CDATA[New Documentation Website]]></title>
             <link>https://jimkyndemeyer.github.io/js-graphql-intellij-plugin/blog/2019/03/31/blog-post.html</link>
