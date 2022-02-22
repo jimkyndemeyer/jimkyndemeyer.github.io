@@ -1,0 +1,25 @@
+<html lang="en">
+
+    <head>
+        <script type="text/javascript">
+            window.addEventListener('wheel', e => {
+                e.preventDefault();
+            }, {passive: false});
+        </script>
+    </head>
+
+    <body style="background: aquamarine">
+
+        <h1>Frame:</h1>
+
+        Steps to reproduce:
+
+        <ol>
+            <li>Observe that ctrl+wheel inside frame, sandbox and host all prevent zoom</li>
+            <li>Ctrl+Wheel while simultaneously moving the mouse across the borders between the frame, sandbox and host</li>
+            <li>Even though frame, sandbox and host all call e.preventDefault(), certain wheel events still cause the host to zoom</li>
+        </ol>
+
+    </body>
+
+</html>
